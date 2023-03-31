@@ -2,7 +2,7 @@
 body, html {
   background-image: url("img/cover-image.png");
   background-size:cover;
-  background-position:0%;
+  /* background-position:0%; */
   background-repeat:  no-repeat;
   display: flex;
   width: 100vw;  ;
@@ -50,7 +50,7 @@ font-size: 35px;
 
   animation-name: trans;
   animation-duration: 2s;
-  animation-iteration-count: 10;
+  animation-iteration-count: 3;
 }
 .left>h6{
   color: blue;
