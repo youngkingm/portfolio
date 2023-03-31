@@ -1,0 +1,68 @@
+
+body, html {
+  background-image: url("img/cover-image.png");
+  background-size:cover;
+  background-position:0%;
+  background-repeat:  no-repeat;
+  display: flex;
+  width: 100vw;  ;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Alkatra', cursive;
+ }
+.TITLE1{
+  color: orange;
+  margin-top: 260px;
+  /* transform: rotate(20deg); */
+}
+.port{
+  display: flex;
+  border: thick solid #ddd;
+
+  border-color: rgb(184, 150, 192);
+  padding: 5px;
+
+  opacity: 0.8;
+width: 450px;
+height:400px;
+margin-left: auto;
+margin-right: 60px;
+border-radius: 50%;
+margin-top: 80px;
+
+}
+.left>h3{
+  color:rgb(187 59 203) ;
+  font-size:  50px;;
+}
+.left>h3>span{
+  color:rgb(108 74 164 );
+  font-family: 'Alkatra', cursive;
+font-family: 'Noto Sans Kannada', sans-serif;
+font-size: 35px;
+}
+@keyframes trans {
+  from {font-family: 'Courier New', Courier, monospace; color: red; }
+  to {font-family: 'Times New Roman', Times, serif;}
+}
+
+.TITLE1{
+
+  animation-name: trans;
+  animation-duration: 2s;
+  animation-iteration-count: 10;
+}
+.left>h6{
+  color: blue;
+  font-size: xx-large;
+}
+.TITLE1>span{
+  color: royalblue;
+  animation-name: title;
+  animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+@keyframes title {
+  from { color: red; }
+  to {color: blue;}
+}
